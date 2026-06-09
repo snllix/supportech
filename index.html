@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Standardized Instructions</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Standardized Instructions</h1>
+      <p>Easy-to-follow guidance for connecting, registering, and maintaining your equipment.</p>
+    </header>
+
+    <section>
+      <h2>Wi-Fi Connection</h2>
+      <ol>
+        <li>Open the Wi-Fi settings on your device.</li>
+        <li>Select the correct network name (SSID).</li>
+        <li>Enter the network password securely.</li>
+        <li>Confirm connection and verify the device is online.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Registering New Equipment</h2>
+      <ol>
+        <li>Open the registration portal or app.</li>
+        <li>Enter the device details and serial number.</li>
+        <li>Assign the device to the correct location or user.</li>
+        <li>Save the registration and confirm the device is listed.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Working with IoT Systems</h2>
+      <ol>
+        <li>Log in to the IoT management platform.</li>
+        <li>Check the device status and system alerts.</li>
+        <li>Review sensor readings and performance data.</li>
+        <li>Apply updates, calibrations, or configuration changes if needed.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Submitting a Fault Report</h2>
+      <p>Use the form below to send a fault report quickly and clearly.</p>
+      <form action="#" method="post" enctype="multipart/form-data">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+
+        <label for="device">Device ID / Serial Number</label>
+        <input type="text" id="device" name="device" placeholder="Enter device ID or serial number" required />
+
+        <label for="faultType">Fault Type</label>
+        <select id="faultType" name="faultType" required>
+          <option value="">Select a fault type</option>
+          <option value="connectivity">Connectivity issue</option>
+          <option value="sensor">Sensor issue</option>
+          <option value="equipment">Equipment malfunction</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label for="description">Problem Description</label>
+        <textarea id="description" name="description" rows="5" placeholder="Describe the issue in detail" required></textarea>
+
+        <label for="attachment">Attach Photo or Log</label>
+        <input type="file" id="attachment" name="attachment" accept="image/*,.txt,.log" />
+
+        <button type="submit">Submit Report</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Replacing Sensors and Equipment</h2>
+      <ol>
+        <li>Power down the device or system safely.</li>
+        <li>Remove the old sensor or equipment carefully.</li>
+        <li>Install the new component and secure it properly.</li>
+        <li>Power the system back on and verify proper operation.</li>
+      </ol>
+    </section>
+  </main>
+</body>
+</html>
